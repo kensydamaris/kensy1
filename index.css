@@ -1,0 +1,78 @@
+
+nav img{
+    width: 80px;
+    background-color: white;
+}
+#principal img{
+    max-height: 600vh;
+    object-fit: cover;
+}
+#principal{
+    position: relative;
+   
+}
+#footer{
+    background-color: gray;
+    margin-top: 35px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 40px;
+    text-align: center;
+}
+h1{
+    position: relative;
+    right: 20px;
+    top: 10px;
+    color: rgb(110, 114, 117);
+    margin: 0 auto;
+}
+
+#search button{
+    border-color: gray;
+    color: gray;
+}
+
+#search button.hover{
+    background-color: gray;
+}
+p1{
+    font-size: 40px;
+    text-align: center;
+}
+
+
+h1 {
+   
+    margin: 10 left;
+}
+@media screen and (max-width: 768px) {
+    h1 {
+        text-align: left;
+        margin-left: -5px; /* Ajusta según sea necesario */
+    }
+}
+
+
+
+p1 {
+    font-size: 40px; /* Tamaño de fuente por defecto */
+}
+
+/* Estilo para pantallas pequeñas (por debajo de 768px) */
+@media screen and (max-width: 768px) {
+    p1 {
+        font-size: 16px; /* Reduce el tamaño de la fuente */
+    }
+}
+
+/* Estilo para pantallas aún más pequeñas (por debajo de 480px) */
+@media screen and (max-width: 480px) {
+    p1 {
+        font-size: 14px; /* Reduce más el tamaño de la fuente */
+    }
+}
+
